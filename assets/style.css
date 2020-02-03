@@ -5,4 +5,13 @@
 
 #logo-font {
     color: #f9f9f9;
+    font-size: x-large;
+}
+
+.bg-logo{
+    background-color: #59AAA5;
+}
+
+.bordered{
+    border-right: 1px solid #ccc;
 }
