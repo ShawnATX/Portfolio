@@ -9,6 +9,7 @@ Personal bio page with Bootstrap styling. The website consists of three pages: i
 Right margin of main content area on every page, mostly on larger screen size.
 Sticky footer is not yet sticky. 
 Nav links spacing is funny on on md screens
+Bootstrap picture element is working in 'responsive' mode in Chrome dev tools, but is not working when simply resizing the full desktop browser window.
 
 
 Cute doggy image free use available on pexels.com - 39317
