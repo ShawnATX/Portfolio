@@ -32,22 +32,25 @@ footer{
     background-color: #59AAA5;
 }
 
+/* Used on pipes that live between navigation links */
 .divider{
     font-weight: lighter;
-    color: ;
 }
 
+/* Used on header  */
 .border-bottom{
     color: #DDDDDD;
     border-width: thick;
 }
 
+/* Used on footer border top currently */
 .border-top{
     border-top-width: 4px !important;
     border-top-color: #59AAA5 !important;
 
 }
 
+/* Form submit button on Contact page */
 .btn-primary{
     color: white !important;
     background-color: #59AAA5;
