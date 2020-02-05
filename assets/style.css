@@ -14,6 +14,10 @@ h1 {
     color: #59AAA5 !important;
 }
 
+footer{
+    background-color: rgba(238, 238, 238, 0.81);
+}
+
 #logo-font {
     color: #f9f9f9 !important;
     font-size: x-large;
@@ -38,3 +42,4 @@ h1 {
     background-color: #59AAA5;
     border-color: rgb(82, 156, 151);
 }
+
