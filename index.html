@@ -8,40 +8,36 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>My Portfolio</title>
 </head>
-<body>
-    <!-- 
-        Navbar and main body are all wrapped in a container for grid positioning
-        Navbar is living in a single row, with the logo in a column and links in a column, this allows easy vertical positioning on smaller screens
-        No collapse on nav items
-    -->
-            <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+<body >
+            <nav class="navbar navbar-expand-md navbar-light border-bottom bg-light w-100 p-0">
                 <div class="container-fluid mx-0 px-0">
-
-                    <div class="row w-100 mw-20 m-0 p-0 justify-content-between"> <!-- Row for the entire navigation area-->
-                        <div class="col-md-4 m-0 p-0">
-                            <a class="navbar navbar-brand text-center font-weight-bold w-100 bg-logo m-0 px-3 py-4" id="logo-font" href="#">Shawn Wright</a>
+                    <div class="row w-100 mw-20 m-0 p-0 bg-white border-bottom justify-content-between"> <!-- Row for the entire navigation area-->
+                        <div class="col-sm-12 col-md-3 col-lg-2 w-100 m-0 p-0">
+                            <a class="navbar navbar-brand text-center font-weight-bold w-100 bg-logo ml-md-5 my-0 mr-0 px-md-0 py-4" id="logo-font" href="#">Shawn Wright</a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-5 col-lg-4 col-sm-12">
                             <div class="navbarNav w-100" id="navbarNav">
-                                <div class="row justify-content-center">
-                                    <ul class="navbar-nav list-group-horizontal w-100 text-center py-3">
-                                        <div class="col-sm-3"></div>
-                                        <div class="col-sm-2 p-0 m-1">
-                                            <li class="nav-item bordered">
-                                                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                                            </li>
-                                        </div>
-                                        <div class="col-sm-2 p-0 m-1">
-                                            <li class="nav-item bordered">
-                                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                            </li>
-                                        </div>
-                                        <div class="col-sm-2 p-0 m-1">
+                                <div class="row w-100 justify-content-center">
+                                    <ul class="navbar-nav nav-fill list-group-horizontal w-100 text-center py-3">
+                                        <div class="col-sm-3 col-md-2"></div>
+                                        <div class="col-sm-2 col-md-3 col-lg-4 p-0 m-1">
                                             <li class="nav-item">
-                                                <a class="nav-link" href="contact.html">Contact</a>
+                                                <a class="nav-link min-vw-30" href="index.html">About<span class="sr-only">(current)</span></a>
                                             </li>
                                         </div>
-                                        <div class="col-sm-3"></div>
+                                        <span class="divider mt-2">|</span>
+                                        <div class="col-sm-2 col-md-3 p-0 m-1">
+                                            <li class="nav-item">
+                                                <a class="nav-link min-vw-30 text-center" href="portfolio.html">Portfolio</a>
+                                            </li>
+                                        </div>
+                                        <span class="divider mt-2">|</span>
+                                        <div class="col-sm-2 col-md-3 p-0 m-1">
+                                            <li class="nav-item min-vw-30">
+                                                <a class="nav-link " href="contact.html">Contact</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-1 m-0 p-0"></div>
                                     </ul>
                                 </div>
                             </div>
@@ -49,24 +45,39 @@
                     </div>
                 </div>
             </nav>
-            <div class="container">
-                <main class="card mb-3" style="max-width: 760px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://placehold.it/200x300" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
+            <main class="container ml-md-5 bg-white mt-4">
+                <div class="row">
+                    <div class="col">
+                        <header>
+                            <h1>
+                                About Me
+                            </h1>
+                        </header>
                     </div>
-                </main>
-            </div>
-        </div>    
-    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                            <picture class="float-left mr-3 mb-3"> 
+                                <source
+                                  media="(min-width: 800px)"
+                                  srcset="https://placehold.it/300x250">
+                                
+                                <source
+                                  media="(min-width: 450px)"
+                                  srcset="https://placehold.it/300x225">
+                                
+                                <img
+                                  src="picture-tiny.jpg"
+                                  srcset="https://placehold.it/500x350" >
+                              </picture>
+                            <!-- <img src="https://placehold.it/500x350" class="img-fluid float-left pl-md-1 pr-3" alt="Beautiful Shawn Wright"> -->
+                        <p>Salmagundi yo-ho-ho bilged on her anchor Sail ho transom jack rutters bilge main sheet keel. Stern provost crack Jennys tea cup come about walk the plank gabion lugsail run a rig wherry six pounders. Cutlass parley Brethren of the Coast aft gunwalls scuppers to go on account loaded to the gunwalls spyglass Buccaneer.
+
+                            Rum sheet swab skysail splice the main brace swing the lead league black spot cog Shiver me timbers. Barbary Coast mutiny topsail log wench topgallant scuppers tack hempen halter long clothes. Lanyard hornswaggle Cat o'nine tails brigantine bounty shrouds poop deck man-of-war topmast pinnace.</p>
+                    </div>
+                </div>
+            </main>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
