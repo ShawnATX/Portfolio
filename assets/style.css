@@ -57,4 +57,11 @@ footer{
     border-color: rgb(82, 156, 151);
 }
 
+.card-img-overlay{
+    opacity: 0.8;
+}
 
+.card-title{
+    color: black !important;
+    opacity: 1;
+}
