@@ -17,5 +17,8 @@ $(document).ready(function() {
     $("#indicator-0").click(function(){
         $("#portfolio-carousel").carousel(0);
       });
+    $("#indicator-1").click(function(){
+        $("#portfolio-carousel").carousel(1);
+      });
 });
 

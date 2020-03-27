@@ -1,7 +1,6 @@
 * {
     font-family: 'Doppio One', sans-serif;
-    color: #8a8a8a !important;
-    
+    color: #4e4e4e !important;
 }
 
 h1 {
@@ -35,9 +34,8 @@ h5 {
 }
 
 #navbar #logo {
-    font-size: 35px;
+    font-size: 37px;
     font-weight: bold;
-    transition: 0.4s;
 }
 
 .navbar-show {
@@ -53,10 +51,14 @@ h5 {
     background-repeat: no-repeat;
   }
 .page-section {
-    padding: 7rem 0;
+    padding: 5rem 0;
 }
 
+.brand-color{
+    color: #59AAA5 !important;
+}
 
-.bg-logo{
-    background-color: #59AAA5;
+.bg-brand{
+    background-color: #59AAA5 !important;
+
 }
